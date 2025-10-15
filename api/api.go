@@ -59,6 +59,11 @@ func (a *API) ListenAndServe(hostAndPort string) {
 	}
 }
 
+// Return the inner http handler for third packages to hook in
+func (a *API) GetHandler() http.Handler {
+	return a.handler
+}
+
 // WaitForShutdown blocks until the system signals termination or done has a value
 func waitForTermination(log logrus.FieldLogger, done <-chan struct{}) {
 	signals := make(chan os.Signal, 1)
