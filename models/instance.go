@@ -6,9 +6,9 @@ import (
 
 	"github.com/gobuffalo/pop/v5"
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/namespace"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/storage"
+	"github.com/cholthi/gotrue/storage/namespace"
 	"github.com/pkg/errors"
 )
 

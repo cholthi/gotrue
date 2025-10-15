@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/cholthi/gotrue/models"
+	"github.com/cholthi/gotrue/storage"
 
-	"github.com/netlify/gotrue/conf"
+	"github.com/cholthi/gotrue/conf"
 	saml2 "github.com/russellhaering/gosaml2"
 	"github.com/russellhaering/gosaml2/types"
 	dsig "github.com/russellhaering/goxmldsig"

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/netlify/gotrue/cmd"
+	"github.com/cholthi/gotrue/cmd"
 )
 
 func main() {

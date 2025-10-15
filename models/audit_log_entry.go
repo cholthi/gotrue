@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/namespace"
+	"github.com/cholthi/gotrue/storage"
+	"github.com/cholthi/gotrue/storage/namespace"
 	"github.com/pkg/errors"
 )
 

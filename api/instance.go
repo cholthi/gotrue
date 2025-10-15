@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/models"
 	"github.com/pkg/errors"
 )
 

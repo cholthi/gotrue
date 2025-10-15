@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/storage"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/storage"
 )
 
 func SetupDBConnection(globalConfig *conf.GlobalConfiguration) (*storage.Connection, error) {

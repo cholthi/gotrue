@@ -11,9 +11,9 @@ import (
 
 	"github.com/gobuffalo/uuid"
 	jwt "github.com/golang-jwt/jwt/v4"
-	"github.com/netlify/gotrue/api/provider"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/cholthi/gotrue/api/provider"
+	"github.com/cholthi/gotrue/models"
+	"github.com/cholthi/gotrue/storage"
 	"github.com/sirupsen/logrus"
 )
 

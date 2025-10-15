@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/models"
 	"github.com/netlify/mailme"
 	"github.com/sirupsen/logrus"
 )

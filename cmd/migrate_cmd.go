@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/gobuffalo/pop/v5"
-	"github.com/netlify/gotrue/conf"
+	"github.com/cholthi/gotrue/conf"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

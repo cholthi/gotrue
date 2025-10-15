@@ -3,9 +3,9 @@ package models
 import (
 	"testing"
 
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/test"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/storage"
+	"github.com/cholthi/gotrue/storage/test"
 	"github.com/gobuffalo/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

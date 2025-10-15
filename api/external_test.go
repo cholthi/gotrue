@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/models"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

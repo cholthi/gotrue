@@ -10,9 +10,9 @@ import (
 	"net/url"
 
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/models"
+	"github.com/cholthi/gotrue/storage"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

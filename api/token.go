@@ -6,10 +6,10 @@ import (
 	"time"
 
 	jwt "github.com/golang-jwt/jwt/v4"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/metering"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/cholthi/gotrue/conf"
+	"github.com/cholthi/gotrue/metering"
+	"github.com/cholthi/gotrue/models"
+	"github.com/cholthi/gotrue/storage"
 )
 
 // GoTrueClaims is a struct thats used for JWT claims
